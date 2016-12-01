@@ -1,0 +1,46 @@
+<ion-view view-title="{{rest.name}}">
+<ion-content>
+
+
+
+    <div class="list card">
+
+      <div class="item item-icon-left">
+        <i class="icon ion-ios-star"></i>
+        <a href="#"> See reviews</a>
+      </div>
+
+      <div class="item item-thumbnail-centre">
+        <img ng-src="{{rest.image}}">
+      </div>
+
+      <!--<div class="item item-thumbnail-centre">
+        var mapImg = "http://maps.google.com/maps/api/staticmap?center=" + latitude + "," + longitude + ",MT&zoom=15&size=400x400&markers=color:blue%7C|" + latitude + "," + longitude + "&mobile=true&sensor=false";
+      </div>
+-->
+
+
+      <a class="item item-icon-right bar-dark" href="#/tab/map">
+      {{rest.address}}
+        <i class="icon ion-chevron-right"></i>
+      </a>
+
+      <a class="item item-icon-left item-icon-right bar-dark" href="#/tab/map">
+        <i class="icon ion-compass"></i>
+        Directions
+        <i class="icon ion-chevron-right"></i>
+      </a>
+
+      <a class="item item-icon-left item-icon-right bar-dark" href="#">
+        <i class="icon ion-android-call"></i>
+        Call
+        <i class="icon ion-chevron-right"></i>
+      </a>
+
+
+      </div>
+
+
+
+</ion-content>
+</ion-view>

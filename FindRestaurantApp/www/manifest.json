@@ -1,0 +1,11 @@
+{
+  "name": "Find Restaurant App",
+  "short_name": "My App",
+  "start_url": "index.html",
+  "display": "standalone",
+  "icons": [{
+    "src": "murphy.jpg",
+    "sizes": "512x512",
+    "type": "image/jpg"
+  }]
+}
